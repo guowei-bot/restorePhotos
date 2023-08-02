@@ -20,7 +20,6 @@ const logger = {
 
 export const authOptions: NextAuthOptions = {
   adapter: PrismaAdapter(prisma),
-  secret: process.env.NEXTAUTH_SECRET,
   providers: [
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID || "",
@@ -38,6 +37,7 @@ export const authOptions: NextAuthOptions = {
       return true;
     }
   },
+  secret: process.env.SECRET,  // 添加这一行
   logger: logger
 };
 
