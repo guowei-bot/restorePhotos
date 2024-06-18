@@ -6,24 +6,24 @@ import Footer from "../components/Footer";
 const page = () => {
     return (
         <>
-              <Header />
-        <div className='mt-24 px-4 lg:px-16 flex flex-col items-center justify-center'>
-        <div className="prose">
+            <Header />
+            <div className='mt-24 px-4 lg:px-16 flex flex-col items-center justify-center'>
+                <div className="prose">
                     <h1>Terms of Service</h1>
                     <p>Last modified: March 2, 2023</p>
                     <h5>1. Introduction</h5>
                     <p>
                         These Terms of Service (“Terms”, “Terms of Service”) are used to determine
                         the rules of the Service and to clarify the legal relationship between the
-                        entity using the Service and the Company. repic.life. (“Company”) operates
-                        web pages located at{/* */} <a href="https://repic.life">repic.life</a>{" "}
+                        entity using the Service and INNOVEDGE SOFTWARE LTD. INNOVEDGE SOFTWARE LTD
+                        (“Company”) operates web pages located at{/* */} <a href="https://repic.life">repic.life</a>{" "}
                         („Website”) and offers Service (as defined below in Section 2).{/* */}The
                         Service is dedicated to the professional entities to help them to conduct
                         their business. Using the Website and/or the Service in any manner, also by
                         going through the Account registration process, the User or the Guest
                         declares that (i) he/she has read, understood and accepts the provisions of
                         the Terms and Privacy Policy, (ii) his/her age and legal capacity enables to
-                        conclude an agreement with the Company, (iii) he/she has the right to act on
+                        conclude an agreement with INNOVEDGE SOFTWARE LTD, (iii) he/she has the right to act on
                         behalf of the entity which he/she represents and his/her declarations are
                         effective. If the User does not agree to apply under the provisions of the
                         Terms, he/she should not use the Service. In such a case however, the User
@@ -42,7 +42,7 @@ const page = () => {
                     </p>
                     <p>
                         <b>Agreement</b> – means a subscription agreement that may be concluded
-                        between User and the Company, that specifies the scope and the price for
+                        between User and INNOVEDGE SOFTWARE LTD, that specifies the scope and the price for
                         using the Service.
                     </p>
                     <p>
@@ -50,7 +50,7 @@ const page = () => {
                         integrated with the User’s software.
                     </p>
                     <p>
-                        <b>Company</b> – means repic.life,
+                        <b>Company</b> – means INNOVEDGE SOFTWARE LTD.
                     </p>
                     <p>
                         <b>Content</b> – means the contents such as texts, pictures and other, which
@@ -67,7 +67,7 @@ const page = () => {
                     <p>
                         <b>Intellectual Property</b> – means any designations, inventions, utility
                         models, industrial designs, works and other externalized expressions of
-                        creative activity that are the subject of exclusive rights of the Company.
+                        creative activity that are the subject of exclusive rights of INNOVEDGE SOFTWARE LTD.
                     </p>
                     <p>
                         <b>Licence</b> – means a non-exclusive right to personal use of the API
@@ -96,7 +96,7 @@ const page = () => {
                     </p>
                     <p>
                         <b>Privacy Policy</b> – means the Privacy Policy, which defines the rules of
-                        personal data processing by the Company, available under the following
+                        personal data processing by INNOVEDGE SOFTWARE LTD, available under the following
                         internet address:{/* */}{" "}
                         <a href="https://www.repic.life/privacy">
                             https://www.repic.life/privacy
@@ -217,26 +217,26 @@ const page = () => {
                         or annual basis, depending on the type of subscription plan you select when
                         purchasing a Subscription. At the end of each Billing Cycle, your
                         Subscription will automatically renew under the exact same conditions unless
-                        you cancel it or the Company cancels it. You may cancel your Subscription
-                        renewal either through your Account or by contacting Company’s customer
+                        you cancel it or INNOVEDGE SOFTWARE LTD cancels it. You may cancel your Subscription
+                        renewal either through your Account or by contacting INNOVEDGE SOFTWARE LTD’s customer
                         support team at{/* */}{" "}
                         <a href="mailto:support@repic.life">support@repic.life</a>. A valid
                         payment method, including credit or debit card, Apple Pay or Google Pay, is
-                        required to process the payment for your subscription. You shall provide the
-                        Company with accurate and complete billing information including (i) full
+                        required to process the payment for your subscription. You shall provide INNOVEDGE SOFTWARE LTD
+                        with accurate and complete billing information including (i) full
                         name, (ii) email address, (iii) country, (iv) business’s legal entity name,
                         (v) VAT tax number and (vi) a valid payment method information. By
-                        submitting such payment information, you automatically authorize Company to
+                        submitting such payment information, you automatically authorize INNOVEDGE SOFTWARE LTD to
                         charge all Subscription fees incurred through your Account to any such
                         payment instruments. Should automatic billing fail to occur for any reason,
-                        Company will issue an electronic invoice indicating that you must proceed
+                        INNOVEDGE SOFTWARE LTD will issue an electronic invoice indicating that you must proceed
                         manually, within a certain deadline date, with the full payment
                         corresponding to the billing period as indicated on the invoice. We reserve
                         the right to refuse or cancel your order at any time for reasons including
                         but not limited to: service availability, errors in the description or price
                         of the service, error in your order or other reasons. We reserve the right
                         to refuse or cancel your order if fraud or an unauthorized or illegal
-                        transaction is suspected. Company is not responsible for any additional
+                        transaction is suspected. INNOVEDGE SOFTWARE LTD is not responsible for any additional
                         fees, including taxes, imposed by the relevant authorities of the country in
                         which the person submitting an order resides / is located. Payment of these
                         additional fees remains the responsibility of the person submitting the
@@ -244,9 +244,9 @@ const page = () => {
                     </p>
                     <h5>8. Fee Changes</h5>
                     <p>
-                        The Company, in its sole discretion and at any time, may modify Subscription
+                        INNOVEDGE SOFTWARE LTD, in its sole discretion and at any time, may modify Subscription
                         fees for the Subscriptions. Any Subscription fee change will become
-                        effective at the end of the then-current Billing Cycle. The Company will
+                        effective at the end of the then-current Billing Cycle. INNOVEDGE SOFTWARE LTD will
                         provide you with a reasonable prior notice of any change in Subscription
                         fees to give you an opportunity to terminate your Subscription before such
                         change becomes effective. Your continued use of Service after Subscription
@@ -294,7 +294,7 @@ const page = () => {
                             similar solicitation,
                         </li>
                         <li>
-                            to impersonate or attempt to impersonate Company, a Company employee,
+                            to impersonate or attempt to impersonate INNOVEDGE SOFTWARE LTD, a INNOVEDGE SOFTWARE LTD employee,
                             another User, or any other person or entity,
                         </li>
                         <li>
@@ -305,7 +305,7 @@ const page = () => {
                         <li>
                             to engage in any other conduct that restricts or inhibits anyone’s use or
                             enjoyment of Service or Website, or which, as determined by us, may harm
-                            or offend Company or Users of Service or Website or expose them to
+                            or offend INNOVEDGE SOFTWARE LTD or Users of Service or Website or expose them to
                             liability.
                         </li>
                     </ul>
@@ -345,7 +345,7 @@ const page = () => {
                             attack Service or Website via a denial-of-service attack or a distributed
                             denial-of-service attack,
                         </li>
-                        <li>take any action that may damage or falsify Company rating,</li>
+                        <li>take any action that may damage or falsify INNOVEDGE SOFTWARE LTD rating,</li>
                         <li>
                             otherwise attempt to interfere with the proper working of Service or
                             Website.
@@ -392,11 +392,11 @@ const page = () => {
                     <h5>13. Intellectual Property</h5>
                     <p>
                         The Service, the Website and their original content (excluding Content),
-                        features and functionality are and will remain the exclusive property of the
-                        Company and its licensors. The Service and the Website are protected by
+                        features and functionality are and will remain the exclusive property of INNOVEDGE SOFTWARE LTD
+                        and its licensors. The Service and the Website are protected by
                         copyright, trademark, and other laws of the United States and foreign
                         countries. Our trademarks and trade dress may not be used in connection with
-                        any product or service without the prior written consent of the Company. The
+                        any product or service without the prior written consent of INNOVEDGE SOFTWARE LTD. The
                         Guest and the User by using the Service do not acquire any rights to the
                         Intellectual Property. It is prohibited to use the Intellectual Property for
                         purposes other than those resulting from the authorized personal use
@@ -477,7 +477,7 @@ const page = () => {
                     </p>
                     <h5>16. Error Reporting and Feedback</h5>
                     <p>
-                        The Company tries – to the best of its ability – to support the Guests and
+                        INNOVEDGE SOFTWARE LTD tries – to the best of its ability – to support the Guests and
                         Users in solving their problems related to functioning of the Service, as
                         well as undertakes actions to improve the quality of the Service’s
                         functioning and the provision of the Service based on the comments submitted
@@ -490,12 +490,12 @@ const page = () => {
                         ideas, problems, complaints, and other matters related to our Service
                         (“Feedback”). You acknowledge and agree that: (i) you shall not retain,
                         acquire or assert any intellectual property right or other right, title or
-                        interest in or to the Feedback; (ii) Company may have development ideas
+                        interest in or to the Feedback; (ii) INNOVEDGE SOFTWARE LTD may have development ideas
                         similar to the Feedback; (iii) Feedback does not contain confidential
                         information or proprietary information from you or any third party; and (iv)
-                        Company is not under any obligation of confidentiality with respect to the
+                        INNOVEDGE SOFTWARE LTD is not under any obligation of confidentiality with respect to the
                         Feedback. In the event the transfer of the ownership to the Feedback is not
-                        possible due to applicable mandatory laws, you grant Company and its
+                        possible due to applicable mandatory laws, you grant INNOVEDGE SOFTWARE LTD and its
                         affiliates an exclusive, transferable, irrevocable, free-of-charge,
                         sub-licensable, unlimited and perpetual right to use (including copy,
                         modify, create derivative works, publish, distribute and commercialize)
@@ -504,33 +504,33 @@ const page = () => {
                     <h5>17. Links to Other Websites</h5>
                     <p>
                         Our Service and/or Website may contain links to Other Websites that are not
-                        owned or controlled by the Company. The Company has no control over, and
+                        owned or controlled by INNOVEDGE SOFTWARE LTD. INNOVEDGE SOFTWARE LTD has no control over, and
                         assumes no responsibility for the content, privacy policies, or practices of
                         any Other Websites. We do not warrant the offerings of any of these
-                        entities/individuals or Other Websites. YOU ACKNOWLEDGE AND AGREE THAT THE
-                        COMPANY SHALL NOT BE RESPONSIBLE OR LIABLE, DIRECTLY OR INDIRECTLY, FOR ANY
-                        DAMAGE OR LOSS CAUSED OR ALLEGED TO BE CAUSED BY OR IN CONNECTION WITH USE
-                        OF OR RELIANCE ON ANY SUCH CONTENT, GOODS OR SERVICES AVAILABLE ON OR
-                        THROUGH ANY OTHER WEBSITES. WE STRONGLY ADVISE YOU TO READ THE TERMS OF
-                        SERVICE AND PRIVACY POLICIES OF ANY OTHER WEBSITES THAT YOU VISIT.
+                        entities/individuals or Other Websites. YOU ACKNOWLEDGE AND AGREE THAT INNOVEDGE SOFTWARE LTD SHALL
+                        NOT BE RESPONSIBLE OR LIABLE, DIRECTLY OR INDIRECTLY, FOR ANY DAMAGE OR LOSS
+                        CAUSED OR ALLEGED TO BE CAUSED BY OR IN CONNECTION WITH USE OF OR RELIANCE
+                        ON ANY SUCH CONTENT, GOODS OR SERVICES AVAILABLE ON OR THROUGH ANY OTHER
+                        WEBSITES. WE STRONGLY ADVISE YOU TO READ THE TERMS OF SERVICE AND PRIVACY
+                        POLICIES OF ANY OTHER WEBSITES THAT YOU VISIT.
                     </p>
                     <h5>18. Disclaimer of Warranty</h5>
                     <p>
-                        THE SERVICES ARE PROVIDED BY COMPANY ON AN “AS IS” AND “AS AVAILABLE” BASIS.
-                        COMPANY MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR
+                        THE SERVICES ARE PROVIDED BY INNOVEDGE SOFTWARE LTD ON AN “AS IS” AND “AS AVAILABLE” BASIS.
+                        INNOVEDGE SOFTWARE LTD MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR
                         IMPLIED, AS TO THE OPERATION OF THEIR SERVICES, OR THE INFORMATION, CONTENT
                         OR MATERIALS INCLUDED THEREIN. YOU EXPRESSLY AGREE THAT YOUR USE OF THE
                         SERVICES, THEIR CONTENT, AND ANY SERVICES OR ITEMS OBTAINED FROM US IS AT
-                        YOUR SOLE RISK. NEITHER COMPANY NOR ANY PERSON ASSOCIATED WITH COMPANY MAKES
+                        YOUR SOLE RISK. NEITHER INNOVEDGE SOFTWARE LTD NOR ANY PERSON ASSOCIATED WITH INNOVEDGE SOFTWARE LTD MAKES
                         ANY WARRANTY OR REPRESENTATION WITH RESPECT TO THE COMPLETENESS, SECURITY,
                         RELIABILITY, QUALITY, ACCURACY, OR AVAILABILITY OF THE SERVICES. WITHOUT
-                        LIMITING THE FOREGOING, NEITHER COMPANY NOR ANYONE ASSOCIATED WITH COMPANY
+                        LIMITING THE FOREGOING, NEITHER INNOVEDGE SOFTWARE LTD NOR ANYONE ASSOCIATED WITH INNOVEDGE SOFTWARE LTD
                         REPRESENTS OR WARRANTS THAT THE SERVICES, THEIR CONTENT, OR ANY SERVICES OR
                         ITEMS OBTAINED THROUGH THE SERVICES WILL BE ACCURATE, RELIABLE, ERROR-FREE,
                         OR UNINTERRUPTED, THAT DEFECTS WILL BE CORRECTED, THAT THE SERVICES OR THE
                         SERVER THAT MAKES IT AVAILABLE ARE FREE OF VIRUSES OR OTHER HARMFUL
                         COMPONENTS OR THAT THE SERVICES OR ANY SERVICES OR ITEMS OBTAINED THROUGH
-                        THE SERVICES WILL OTHERWISE MEET YOUR NEEDS OR EXPECTATIONS. COMPANY HEREBY
+                        THE SERVICES WILL OTHERWISE MEET YOUR NEEDS OR EXPECTATIONS. INNOVEDGE SOFTWARE LTD HEREBY
                         DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, STATUTORY,
                         OR OTHERWISE, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
                         MERCHANTABILITY, NON-INFRINGEMENT, AND FITNESS FOR PARTICULAR PURPOSE. THE
@@ -539,24 +539,24 @@ const page = () => {
                     </p>
                     <h5>19. Limitation of Liability</h5>
                     <p>
-                        The Company shall not be liable for the consequences of complying with the
+                        INNOVEDGE SOFTWARE LTD shall not be liable for the consequences of complying with the
                         content of tips, articles or other publications on the Website or the
                         Service, including the content provided by the AI computer. You acknowledge
                         that the AI computer that provides the content in the Service and/or the
                         Website is not the expert and may be mistaken and you cannot rely on its
                         answers or advice. In particular it cannot replace any professional
-                        recommendation. The Company shall not be liable to the customers of the User
+                        recommendation. INNOVEDGE SOFTWARE LTD shall not be liable to the customers of the User
                         for the use of the Service and the Content provided by the Service to the
-                        User’s customers.The Company shall not be liable for the consequences of
+                        User’s customers. INNOVEDGE SOFTWARE LTD shall not be liable for the consequences of
                         installing or sending any malicious software, phishing or any other
-                        practises undertaken by other entities to the Service. The Company shall not
-                        be liable for any breaks in the operation of the Service. The Company shall
-                        not be liable for the consequences of phenomena known as force majeure,
+                        practises undertaken by other entities to the Service. INNOVEDGE SOFTWARE LTD shall not
+                        be liable for any breaks in the operation of the Service. INNOVEDGE SOFTWARE LTD shall not
+                        be liable for the consequences of phenomena known as force majeure,
                         including in particular power outages, fires, atmospheric phenomena, wars,
-                        riots, strikes and other similar events that are not affected by the
-                        Company. EXCEPT AS PROHIBITED BY LAW, YOU WILL HOLD US AND OUR OFFICERS,
-                        DIRECTORS, EMPLOYEES, AND AGENTS HARMLESS FOR ANY INDIRECT, PUNITIVE,
-                        SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGE, HOWEVER IT ARISES (INCLUDING
+                        riots, strikes and other similar events that are not affected by INNOVEDGE SOFTWARE LTD. EXCEPT
+                        AS PROHIBITED BY LAW, YOU WILL HOLD US AND OUR OFFICERS, DIRECTORS,
+                        EMPLOYEES, AND AGENTS HARMLESS FOR ANY INDIRECT, PUNITIVE, SPECIAL,
+                        INCIDENTAL, OR CONSEQUENTIAL DAMAGE, HOWEVER IT ARISES (INCLUDING
                         ATTORNEYS' FEES AND ALL RELATED COSTS AND EXPENSES OF LITIGATION AND
                         ARBITRATION, OR AT TRIAL OR ON APPEAL, IF ANY, WHETHER OR NOT LITIGATION OR
                         ARBITRATION IS INSTITUTED), WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE, OR
@@ -564,11 +564,11 @@ const page = () => {
                         AGREEMENT, INCLUDING WITHOUT LIMITATION ANY CLAIM FOR PERSONAL INJURY OR
                         PROPERTY DAMAGE, ARISING FROM THESE TERMS AND ANY VIOLATION BY YOU OF ANY
                         FEDERAL, STATE, OR LOCAL LAWS, STATUTES, RULES, OR REGULATIONS, EVEN IF
-                        COMPANY HAS BEEN PREVIOUSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-                        EXCEPT AS PROHIBITED BY LAW, IF THERE IS LIABILITY FOUND ON THE PART OF
-                        COMPANY, IT WILL BE LIMITED TO THE AMOUNT PAID FOR THE SERVICES, AND UNDER
-                        NO CIRCUMSTANCES WILL THERE BE CONSEQUENTIAL OR PUNITIVE DAMAGES. SOME
-                        STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF PUNITIVE, INCIDENTAL OR
+                        INNOVEDGE SOFTWARE LTD HAS BEEN PREVIOUSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. EXCEPT
+                        AS PROHIBITED BY LAW, IF THERE IS LIABILITY FOUND ON THE PART OF INNOVEDGE SOFTWARE LTD, IT
+                        WILL BE LIMITED TO THE AMOUNT PAID FOR THE SERVICES, AND UNDER NO
+                        CIRCUMSTANCES WILL THERE BE CONSEQUENTIAL OR PUNITIVE DAMAGES. SOME STATES
+                        DO NOT ALLOW THE EXCLUSION OR LIMITATION OF PUNITIVE, INCIDENTAL OR
                         CONSEQUENTIAL DAMAGES, SO THE PRIOR LIMITATION OR EXCLUSION MAY NOT APPLY TO
                         YOU.
                     </p>
@@ -578,20 +578,20 @@ const page = () => {
                         unauthorised distribution of any content available on the Website or the
                         Service. This applies in particular to the Intellectual Property. The
                         liability includes, in particular, Company's release from any claims in this
-                        respect if such are against Company. The User is solely liable for any
+                        respect if such are against INNOVEDGE SOFTWARE LTD. The User is solely liable for any
                         Content published, presented, sent or in any other way provided during the
                         use of Service to the User’s customers.
                     </p>
                     <h5>21. Service breaks</h5>
                     <p>
-                        The Company does not guarantee the permanent accessibility of the Service or
-                        the Website. The Company reserves the right to introduce a break in the
+                        INNOVEDGE SOFTWARE LTD does not guarantee the permanent accessibility of the Service or
+                        the Website. INNOVEDGE SOFTWARE LTD reserves the right to introduce a break in the
                         operation of the Website or the Service or their certain functionalities. If
-                        there is an intention to implement a break, the Company will notify about it
+                        there is an intention to implement a break, INNOVEDGE SOFTWARE LTD will notify about it
                         by posting relevant information or a massage on the Website or via the email
                         provided when setting-up the Account at least 3 days before the date of
                         planned break. In the event of unintended breaks in the operation of the
-                        Website or the Service or their certain functionalities, the Company will
+                        Website or the Service or their certain functionalities, INNOVEDGE SOFTWARE LTD will
                         immediately notify about it by posting a relevant information or message on
                         the Website or via the email provided when setting-up the Account.
                         Acceptance of the Regulations means also giving an approval for the Services
@@ -599,19 +599,18 @@ const page = () => {
                     </p>
                     <h5>22. Personal Data Protection and Security</h5>
                     <p>
-                        The Company processes personal data with due diligence and ensuring adequate
+                        INNOVEDGE SOFTWARE LTD processes personal data with due diligence and ensuring adequate
                         technical and organizational security measures. Detailed information about
-                        the protection of personal data can be found in the Privacy Policy. The
-                        Company shall not be liable for the personal data protection of the User’s
-                        customers that use the Service. The Company shall not be liable for the
-                        contents and rules of personal data protection and privacy on the Other
-                        Websites, including those to which the Links refer. The Company shall not be
-                        liable for the damages caused by browsing the Other Websites or posting any
-                        personal data or other information on them. The Company recommends reading
-                        the rules of personal data protection and privacy on the Other Websites,
-                        including those to which the Links refer, before starting using them, in
-                        particular before publishing own personal data or other essential
-                        information on the Other Websites.
+                        the protection of personal data can be found in the Privacy Policy. INNOVEDGE SOFTWARE LTD shall
+                        not be liable for the personal data protection of the User’s customers that
+                        use the Service. INNOVEDGE SOFTWARE LTD shall not be liable for the contents and rules of
+                        personal data protection and privacy on the Other Websites, including those
+                        to which the Links refer. INNOVEDGE SOFTWARE LTD shall not be liable for the damages caused
+                        by browsing the Other Websites or posting any personal data or other
+                        information on them. INNOVEDGE SOFTWARE LTD recommends reading the rules of personal data
+                        protection and privacy on the Other Websites, including those to which the
+                        Links refer, before starting using them, in particular before publishing own
+                        personal data or other essential information on the Other Websites.
                     </p>
                     <h5>23. Termination</h5>
                     <p>
@@ -660,9 +659,9 @@ const page = () => {
                     </p>
                     <h5>27. Waiver And Severability</h5>
                     <p>
-                        No waiver by Company of any term or condition set forth in Terms shall be
+                        No waiver by INNOVEDGE SOFTWARE LTD of any term or condition set forth in Terms shall be
                         deemed a further or continuing waiver of such term or condition or a waiver
-                        of any other term or condition, and any failure of Company to assert a right
+                        of any other term or condition, and any failure of INNOVEDGE SOFTWARE LTD to assert a right
                         or provision under Terms shall not constitute a waiver of such right or
                         provision. If any provision of Terms is held by a court or other tribunal of
                         competent jurisdiction to be invalid, illegal or unenforceable for any
@@ -677,7 +676,7 @@ const page = () => {
                     </p>
                     <h5>29. Contact Us</h5>
                     <p>
-                        Any time you wish to contact the Company, please send email at:{/* */}{" "}
+                        Any time you wish to contact INNOVEDGE SOFTWARE LTD, please send email at:{/* */}{" "}
                         <a href="mailto:support@repic.life">support@repic.life</a>.
                     </p>
                 </div>
@@ -687,4 +686,4 @@ const page = () => {
     )
 }
 
-export default page
+export default page;
