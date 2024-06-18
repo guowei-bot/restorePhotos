@@ -13,7 +13,6 @@ import appendNewToName from "../utils/appendNewToName";
 import downloadPhoto from "../utils/downloadPhoto";
 import NSFWPredictor from "../utils/nsfwCheck";
 import va from "@vercel/analytics";
-import { useSession, signIn } from "next-auth/react";
 import useSWR from "swr";
 import { Rings } from "react-loader-spinner";
 
@@ -35,7 +34,6 @@ const Home: NextPage = () => {
 
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
   const { data, mutate } = useSWR("/api/remaining", fetcher);
-  const { data: session, status } = useSession();
 
   const options = {
     maxFileCount: 1,
@@ -105,13 +103,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header photo={session?.user?.image || undefined} />
+      <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-4 sm:mb-0 mb-8">
-
         <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-900 sm:text-6xl mb-5">
           Restore any face photo
         </h1>
-        {status === "authenticated" && data && (
+        {data && (
           <p className="text-slate-500">
             You have{" "}
             <span className="font-semibold">
@@ -136,52 +133,18 @@ const Home: NextPage = () => {
               restored={restoredImage!}
             />
           )}
-          {status === "loading" ? (
-            <div className="max-w-[670px] h-[250px] flex justify-center items-center">
-              <Rings
-                height="100"
-                width="100"
-                color="black"
-                radius="6"
-                wrapperStyle={{}}
-                wrapperClass=""
-                visible={true}
-                ariaLabel="rings-loading"
-              />
-            </div>
-          ) : status === "authenticated" && !originalPhoto ? (
+          {!originalPhoto ? (
             <UploadDropZone />
           ) : (
-            !originalPhoto && (
-              <div className="h-[250px] flex flex-col items-center space-y-6 max-w-[670px] -mt-8">
-                <div className="max-w-xl text-gray-600">
-                  Sign in below with Google to create a free account and restore
-                  your photos today. You will be able to restore 5 photos per
-                  day for free.
-                </div>
-                <button
-                  onClick={() => signIn("google")}
-                  className="bg-gray-200 text-black font-semibold py-3 px-6 rounded-2xl flex items-center space-x-2"
-                >
-                  <Image
-                    src="/google.png"
-                    width={20}
-                    height={20}
-                    alt="google's logo"
-                  />
-                  <span>Sign in with Google</span>
-                </button>
-              </div>
+            originalPhoto && !restoredImage && (
+              <Image
+                alt="original photo"
+                src={originalPhoto}
+                className="rounded-2xl"
+                width={475}
+                height={475}
+              />
             )
-          )}
-          {originalPhoto && !restoredImage && (
-            <Image
-              alt="original photo"
-              src={originalPhoto}
-              className="rounded-2xl"
-              width={475}
-              height={475}
-            />
           )}
           {restoredImage && originalPhoto && !sideBySide && (
             <div className="flex sm:space-x-4 sm:flex-row flex-col">
